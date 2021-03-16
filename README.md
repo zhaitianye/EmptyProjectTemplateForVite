@@ -1,0 +1,2 @@
+# EmptyProjectTemplateForVite
+空的Vite移动端项目模板
