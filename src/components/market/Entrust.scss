@@ -1,0 +1,145 @@
+.title {
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .item {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .item-1 {
+    width: 60px;
+  }
+
+  .item-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .item-3 {
+    text-align: right;
+    width: 125px;
+  }
+}
+
+.sell-box {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+
+  .line {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .item1 {
+      width: 60px;
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #f8f8f8;
+      height: 20px;
+    }
+
+    .item2 {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #ff6960;
+      height: 20px;
+    }
+
+    .item3 {
+      text-align: right;
+      width: 135px;
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #f8f8f8;
+      height: 20px;
+    }
+  }
+}
+
+.spreads-box {
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .item {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .item-1 {
+    width: 60px;
+  }
+
+  .item-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .item-3 {
+    text-align: right;
+    width: 135px;
+  }
+}
+
+.buy-box {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+
+  .line {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .item1 {
+      width: 60px;
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #f8f8f8;
+      height: 20px;
+    }
+
+    .item2 {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #45B57F;
+      height: 20px;
+    }
+
+    .item3 {
+      text-align: right;
+      width: 135px;
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #f8f8f8;
+      height: 20px;
+    }
+  }
+}

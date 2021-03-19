@@ -1,33 +1,31 @@
 <template>
-  <div>
-    <div class="f-14"> 测试页面 </div>
-
-    <van-divider />
-    <div class="f-14"> 测试scss </div>
-    <div class="aa ccc">
-      123123
-      <div class="aaa"> 123123 </div>
+  <div class="min-h-100 bg-14172E pb-48 pos-r">
+    <div class="clear pos-a r-16 t-12">
+      <wallet-more :pupupUp='70' ></wallet-more>
     </div>
-    <van-divider />
-
-    <div class="f-14"> 测试basess </div>
-    <div class="f-18 col-red mt-10"> kkk </div>
-    <van-divider />
-
-    <div class="f-14"> 测试vant </div>
-    <van-button type="primary" block>块级元素</van-button>
-    <van-cell title="URL 跳转" is-link url="/" />
-    <van-icon name="chat-o" />
-    <div class="f-14"> 说明：如果浏览器上有提示警告，则是因为日期控件引起的，不用担心，把下面日期控件注释掉就没有了 </div>
-    <van-cell title="选择单个日期" :value="date" @click="show = true" />
-    <van-calendar v-model:show="show" @confirm="onConfirm" />
-    <van-rate v-model="valuerate" />
-    <van-divider />
-
-    <div class="f-14"> 测试组件 </div>
-    <hello-world msg="组件传值"></hello-world>
+    <div class="clear floor1" @click = 'aaa'>
+      <div class="clear item dis-ib">
+        <div class="line1">
+          <span class="text1">4234.1</span>
+          <span class="text2">MOAC</span>
+        </div>
+        <div class="clear line2">
+          中端市场价
+        </div>
+      </div>
+    </div>
+    <div class="clear kline-warp-box">
+      <kline></kline>
+    </div>
+    <van-tabs class="floor3" v-model:active="refActive" animated swipeable  type="card">
+      <van-tab title="订单" title-class="ctrl-1">
+        <order-list></order-list>
+      </van-tab>
+      <van-tab title="全部成交" title-class="ctrl-2">
+        <deal-list></deal-list>
+      </van-tab>
+    </van-tabs>
   </div>
 </template>
-
 <style scoped lang="scss" src="./home.scss"></style>
 <script lang="ts" src="./home.ts"></script>

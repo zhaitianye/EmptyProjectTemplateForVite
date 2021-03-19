@@ -1,0 +1,243 @@
+.bg-14172E {
+  background-color: #14172e;
+}
+.min-h-100 {
+  min-height: 100%;
+}
+.pb-48 {
+  padding-bottom: 48px;
+}
+.r-16 {
+  right: 16px;
+}
+.t-12 {
+  top: 12px;
+}
+
+.bor-col-111428 {
+  border-color: #111428;
+}
+
+.floor-1 {
+  height: 44px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #111428;
+}
+
+.floor-2 {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  align-items: center;
+  background: #14172e;
+
+  .twig-1 {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .twig-2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .bar-1 {
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #ffffff;
+    }
+    .bar-2 {
+      display: flex;
+      align-items: center;
+      .item-img {
+        width: 11px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+    .bar-3 {
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #45b57f;
+    }
+  }
+}
+
+.floor-3 {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  align-items: center;
+  background: #111428;
+
+  .twig-1 {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .twig-2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .bar-3 {
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #ffffff;
+    }
+  }
+}
+
+.floor-4 {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  align-items: center;
+  background: #14172e;
+
+  .twig-1 {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .twig-2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .bar-1 {
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #ffffff;
+    }
+    .bar-2 {
+      display: flex;
+      align-items: center;
+      .item-img {
+        width: 11px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+    .bar-3 {
+      font-size: 14px;
+      font-family: DIN-Regular, DIN;
+      font-weight: 400;
+      color: #ff6960;
+    }
+  }
+}
+
+.floor-5 {
+  height: 72px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111428;
+
+  .btn-save {
+    width: 160px;
+    height: 40px;
+    background: #3a67fa;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: PingFang-SC-Medium, PingFang-SC;
+    font-weight: 500;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+  }
+
+  .btn-load {
+    width: 160px;
+    height: 40px;
+    background: #111428;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: PingFang-SC-Medium, PingFang-SC;
+    font-weight: 500;
+    color: #3A67FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3A67FA;
+  }
+}
+
+
+.floor-6 {
+  :deep(.van-tabs__wrap) {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14172e;
+
+    .van-tabs__nav {
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      height: 40px;
+      border: none;
+      background-color: rgba(0, 0, 0, 0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0px;
+    }
+
+    .van-tab {
+      font-size: 14px;
+      font-family: PingFang-SC-Bold, PingFang-SC;
+      font-weight: bold;
+      color: #979bb7;
+      height: 20px;
+      line-height: 20px;
+      width: 50%;
+      border: none;
+    }
+
+    .ctrl-1 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .ctrl-2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .van-tab--active {
+      background-color: rgba(0, 0, 0, 0);
+      color: #3a67fa;
+    }
+
+    .van-tabs__line{
+      width: 43px;
+      height: 2px;
+      background: #3A67FA;
+      border-radius: 2px;
+      bottom: 0px;
+    }
+  }
+}

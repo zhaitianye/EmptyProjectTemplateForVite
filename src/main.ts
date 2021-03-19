@@ -18,6 +18,15 @@ Basess(375); // 设计稿宽度
 import axios from 'axios'
 import api from "./axios/api"
 
+// 手机端测试组件
+import VConsole from 'vconsole'
+
+// 测试环境引入vconsole
+if (import.meta.env.MODE === 'development') {
+  // vconsole 会在浏览器提示拖动警告，正式服不会引入vconsole 可以忽略此警告
+  new VConsole()
+}
+
 // 启动app
 const app = createApp(App);
 

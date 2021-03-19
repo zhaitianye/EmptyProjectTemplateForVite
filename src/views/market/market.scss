@@ -7,50 +7,6 @@
 .pb-48 {
   padding-bottom: 48px;
 }
-.floor1 {
-  height: 72px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 16px;
-  padding-right: 16px;
-
-  .item {
-    width: 120px;
-    height: 48px;
-    background: #24283d;
-    border-radius: 4px;
-    padding: 5px 10px;
-
-    .line1 {
-      height: 22px;
-      display: flex;
-      justify-content: flex-start;
-      align-items: baseline;
-
-      .text1 {
-        font-size: 16px;
-        font-family: PingFang-SC-Bold, PingFang-SC;
-        font-weight: bold;
-        color: #ffffff;
-      }
-
-      .text2 {
-        margin-left: 2px;
-        font-size: 12px;
-        font-family: PingFangSC-Regular, PingFang SC;
-        font-weight: 400;
-        color: #b2b6ca;
-      }
-    }
-
-    .line2 {
-      font-size: 12px;
-      font-family: PingFangSC-Regular, PingFang SC;
-      font-weight: 400;
-      color: #3a67fa;
-    }
-  }
-}
 .r-16 {
   right: 16px;
 }
@@ -58,7 +14,11 @@
   top: 12px;
 }
 
-.floor3 {
+.bor-col-111428 {
+  border-color: #111428;
+}
+
+.floor1 {
   :deep(.van-tabs__wrap) {
     height: 40px;
     display: flex;

@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div class="full-h">
     <router-view />
+    <Tabbar />
   </div>
 </template>
 

@@ -1,0 +1,59 @@
+.button-box {
+  width: 20px;
+  height: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .button-img {
+    width: 16px;
+    height: 10px;
+  }
+}
+
+// 定义变量
+$vanPopupTop: var(--walletDrarweWarpvanPopupTop, 0px);
+.wallet-drarwe-warp-box {
+  :deep(.van-popup) {
+    right: 0px;
+    top: $vanPopupTop;
+    bottom: 49px;
+    width: 300px;
+    background-color: #181b38;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.3s;
+    border: 1px solid #272c4e;
+    border-right: none;
+  }
+
+  :deep(.van-popup-slide-right-leave-active) {
+    transform: translate3d(100%, 0, 0);
+  }
+  :deep(.van-popup-slide-right-enter-active) {
+    transform: translate3d(100%, 0, 0);
+  }
+
+  :deep(.van-overlay) {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  :deep(.van-overlay) {
+    background-color: rgba(0, 0, 0, 0);
+    height: auto;
+    bottom: 48px;
+  }
+}
+
+.introduction-sheet-box {
+  :deep(.van-action-sheet) {
+    min-height: 90%;
+  }
+}
+
+.min-h-80vh {
+  min-height: 80vh;
+}

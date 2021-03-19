@@ -1,0 +1,33 @@
+.van-tabbar {
+  height: 48px;
+  background: #14172e;
+  box-shadow: 0px 2px 6px 0px #3e3e40;
+
+  :deep(.van-tabbar-item) {
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #636b7e;
+  }
+
+  :deep(.van-tabbar-item--active) {
+    background-color: rgba(0, 0, 0, 0);
+
+    .van-tabbar-item__text {
+      width: 56px;
+      height: 24px;
+      background: #ffffff;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #3a67fa;
+    }
+  }
+}
+.van-tabbar::after {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
